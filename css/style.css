@@ -1,0 +1,95 @@
+body {
+  font-family: "Open Sans";
+  color: #f7f7f7;
+}
+a {
+  font-family: "Roboto";
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+.conteyner {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #ccc;
+}
+.cont {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+header {
+  position: absolute;
+  top: 19px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  width: 60px;
+}
+.logo h4 {
+  margin-left: 15px;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: left;
+  text-transform: uppercase;
+}
+nav {
+  display: inline-block;
+  float: right;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.survival {
+  height: 779px;
+  background-image: url(../img/Rectangle.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.survival-content {
+  position: relative;
+  top: 199px;
+}
+.survival-content h1 {
+  font-family: Open Sans;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #cd6326;
+}
+.survival-content p {
+  width: 274px;
+  height: 108px;
+  font-family: Open Sans;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: left;
+}
+.survival-content a {
+  position: absolute;
+  padding: 16px 42px;
+  font-size: 23px;
+  background: #cd6326;
+  border-radius: 5px;
+}
+.survival-content a:hover {
+  background: #e39128;
+}
+/* .survival-content a:visited {
+  background: #8f5613;
+} */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
