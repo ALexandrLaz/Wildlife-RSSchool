@@ -1,7 +1,9 @@
 body {
+  margin-top: -32px;
   font-family: "Open Sans";
   font-weight: 400;
   color: #f7f7f7;
+  background-color: #666;
 }
 a {
   font-family: "Roboto";
@@ -42,7 +44,7 @@ header {
 }
 .logo h4 {
   position: absolute;
-  left: 10.4%;
+  left: 9.6%;
   top: -70%;
   font-family: Roboto;
   font-size: 32px;
@@ -60,7 +62,7 @@ header nav ul {
   line-height: 60px;
 }
 header nav ul li{
-  margin-left: 38.6%;
+  margin-left: 27%;
   margin-top: -2px;
 }
 header nav ul li a{
@@ -68,19 +70,28 @@ header nav ul li a{
 }
 header nav ul li a img{
   position: relative;
+  top: 2px;
   left: 12%;
   margin-top: 18px;
 }
-.head input[type="submit"]{
-  margin-left: 0.6%;
-  margin-top: -6.7%;
-  width: 14.7%;
-  height: 80%;
+.head {
+  width: 240%;
+  padding: 10px 0;
+  margin-left: 2px;
+  margin-bottom: 6px;
   font-family: "Roboto";
   font-weight: 300;
   background-color: transparent;
   border: 2px solid #cd6326;
   border-radius: 5px;
+  color: #fff;
+}
+.head:hover {
+  background-color: #cd6326;
+}
+.head:active {
+  border: 2px solid #8f5613;
+  background: #8f5613;
 }
 .survival {
   height: 779px;
@@ -146,7 +157,13 @@ header nav ul li a img{
 }
 .slider-full span {
   margin-top: 13.5%;
+  margin-bottom: 13.5%;
   margin-left: 0.2%;
+  opacity: .4;
+}
+.slider-full span:hover {
+  cursor: pointer;
+  opacity: 1;
 }
 .slider {
   display: flex;
@@ -175,19 +192,19 @@ header nav ul li a img{
   letter-spacing: .4px;
 }
 .slide h4{
-  left: 0;
+  left: .3%;
   width: 100%;
-  margin-bottom: 27%;
+  margin-bottom: 29%;
 }
 .slide p {
-  left: 0;
+  left: 0.3%;
   width: 100%;
-  margin-bottom: 14.3%;
+  margin-bottom: 16.3%;
   font-size: 17px;
   color: #f7f7f7;
 }
 .get-notified{
-  margin-top: 20%;
+  margin-top: 19.52%;
   margin-bottom: 19.9%;
 }
 .get-notified h3{
@@ -287,9 +304,13 @@ footer > nav ul li:nth-child(5){
   margin-top: 0.2%;
 }
 footer > nav ul li:nth-child(6){
-  margin-right: -3.7%;
+  margin-right: -3.6%;
   margin-top: 0.2%;
 }
 footer > nav ul li:nth-child(7){
- margin-top: 0.2%;
+
+  margin-top: 0.2%;
+}
+footer > nav > ul li a:hover{
+  color: #cd6326;
 }
